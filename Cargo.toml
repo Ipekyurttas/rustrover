@@ -1,0 +1,11 @@
+[package]
+name = "stellar_payment_system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stellar_sdk = "0.1.4"
+soroban-sdk = "21.6.0"
+tokio = { version = "1.0", features = ["full"] }
+chrono = "0.4"
+thiserror = "1.0"
